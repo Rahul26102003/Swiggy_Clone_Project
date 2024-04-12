@@ -36,10 +36,10 @@ export default function Category() {
         <>
         <div className='max-w-[1200px] mx-auto items-center'>
           <div className='flex items-center my-3 justify-between'>
-            <div className='text-[25px] font-bold'>
+            <div className='text-[25px] ps-2 font-bold'>
                 What's on your mind?
             </div>
-            <div className='flex gap-4'>
+            <div className='flex md:gap-4'>
                 <div className='cursor-pointer text-[25px] flex justify-center items-center w-[30px] h-[30px] bg-[#e2e2e7] rounded-full mx-2'><HiArrowSmLeft onClick={prevSlide}/></div>
                 <div className='cursor-pointer text-[25px] flex justify-center items-center w-[30px] h-[30px] bg-[#e2e2e7] rounded-full mx-2'><HiArrowSmRight onClick={nextSlide}/></div>
             </div>

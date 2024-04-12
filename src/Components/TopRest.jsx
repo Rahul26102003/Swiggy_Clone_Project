@@ -33,12 +33,12 @@ export default function TopRest() {
 
     return (
         <>
-        <div className='max-w-[1190px] ms-auto me-[395px] items-center'>
+        <div className='max-w-[1190px] mx-auto items-center px-2'>
           <div className='flex items-center my-3 justify-between'>
             <div className='text-[25px] font-bold'>
-                Top restaurarant chains in Hisar
+                Top restaurarant chains in Chandigarh
             </div>
-            <div className='flex gap-4'>
+            <div className='flex md:gap-2'>
                 <div className='cursor-pointer text-[25px] flex justify-center items-center w-[30px] h-[30px] bg-[#e2e2e7] rounded-full mx-2'><HiArrowSmLeft onClick={prevSlide}/></div>
                 <div className='cursor-pointer text-[25px] flex justify-center items-center w-[30px] h-[30px] bg-[#e2e2e7] rounded-full mx-2'><HiArrowSmRight onClick={nextSlide}/></div>
             </div>
@@ -49,7 +49,7 @@ export default function TopRest() {
                     (data, index) => {
                         return (
                             <div className="shrink-0 duration-500" style={{transform: `translateX(-${slide * 100}%)`}}>
-                                     <Card  {...data} key={index}/>
+                                     <Card width="w-full md:w-[273px]"  {...data} key={index}/>
                             </div>
                         )
                     }

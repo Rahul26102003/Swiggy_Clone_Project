@@ -1,14 +1,14 @@
 import React from "react";
 export default function Card(props) {
     return (
-        <div className="w-[273px] shrink-0 grow pt-3">
+        <div className={`${props.width} shrink-0 pt-3 mb-3`}>
             <div className="h-[190px] pt-2  rounded-[15px] overflow-hidden relative">
-                <img className="group-hover:scale-110 duration-150 object-cover w-full h-[260px] pb-1 rounded-t-[15px]"  src={"http://127.0.0.1:5500/" + props.image} alt="" />
-                <div className="image-overlay absolute w-full h-full top-0 flex items-end p-2 text-[25px] font-bold text-white tracking-tighter gap-3"> 
-                    <h3>Flat</h3>{props.offer}
+                <img className="group-hover:scale-110 duration-150 object-cover w-full h-full pb-1 rounded-t-[15px]"  src={"http://127.0.0.1:5500/" + props.image} alt="" />
+                <div className="image-overlay absolute w-full h-full top-0 text-[16px] flex items-end p-2 text-[25px]  text-white font-[700] tracking-tighter gap-3"> 
+                    {props.offer}
                 </div>
             </div>
-            <div className="mt-3 text-xl font-bold">
+            <div className="mt-3 text-md md:text-xl font-bold">
                 {props.title}
             </div>
             <div>

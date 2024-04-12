@@ -1,93 +1,92 @@
-// Array of  objects
 [
     {
         "image": "swiggy-images/1.jpeg",
-        "path": "north-indian",
-        "title": "Pizza Flix",
-        "name": "Chinese, Asian, Deserts",
+        "path": "Pizza",
+        "title": "Pizza Hut",
+        "name": "Chinese",
         "place": "Kharar",
         "rating": "4.2",
         "minTime": "20",
         "maxTime": "30",
-        "offer": "50%"
+        "offer": "50% OFF UPTO Rs.90"
     },
     {
         "image": "swiggy-images/2.jpeg",
         "path": "pizza",
-        "title": "Pizza Flix",
-        "name": "Pizza Flix",
-        "place": "Kharar",
-        "rating": "5",
+        "title": "National Bakery",
+        "name": "Deserts",
+        "place": "Santemajra",
+        "rating": "4.0",
         "minTime": "20",
-        "maxTime": "30",
-        "offer": "50%"
+        "maxTime": "40",
+        "offer": "BUY 1 GET 1 FREE"
 
     },
     {
         "image": "swiggy-images/3.jpeg",
         "path": "noodles",
-        "title": "Pizza Flix",
-        "name": "Pizza Flix",
-        "place": "Kharar",
-        "rating": "5",
-        "minTime": "20",
-        "maxTime": "30",
-        "offer": "50%"
+        "title": "Baking Company",
+        "name": "Bakery, Deserts, Snacks",
+        "place": "Sector-19",
+        "rating": "5.0",
+        "minTime": "10",
+        "maxTime": "20",
+        "offer": "40% OFF UPTO Rs.80"
     },
     {
         "image": "swiggy-images/4.jpeg",
         "path": "pasta",
-        "title": "Pizza Flix",
-        "name": "Pizza Flix",
-        "place": "Kharar",
-        "rating": "5",
+        "title": "Katani Dhaba",
+        "name": "North Indian",
+        "place": "Sector-66",
+        "rating": "4.5",
         "minTime": "20",
         "maxTime": "30",
-        "offer": "50%"
+        "offer": "20% OFF"
     },
     {
         "image": "swiggy-images/5.jpeg",
         "path": "paratha",
-        "title": "Pizza Flix",
-        "name": "Pizza Flix",
-        "place": "Kharar",
-        "rating": "5",
-        "minTime": "20",
+        "title": "Dominic Pizza",
+        "name": "Chinese",
+        "place": "Sector-43",
+        "rating": "5.0",
+        "minTime": "15",
         "maxTime": "30",
-        "offer": "50%"
+        "offer": "50% OFF"
     },
     {
         "image": "swiggy-images/6.jpeg",
         "path": "biryani",
-        "title": "Pizza Flix",
-        "name": "Pizza Flix",
+        "title": "New Kesri Sweets",
+        "name": "North Indian, Sweets",
         "place": "Kharar",
-        "rating": "5",
+        "rating": "4.2",
         "minTime": "20",
         "maxTime": "30",
-        "offer": "50%"
+        "offer": ""
     },
     {
         "image": "swiggy-images/7.jpeg",
         "path": "burger",
-        "title": "Pizza Flix",
-        "name": "Pizza Flix",
-        "place": "Kharar",
-        "rating": "5",
+        "title": "Hot 2 Shot Pizza",
+        "name": "Chinese,  Deserts",
+        "place": "Chandigarh",
+        "rating": "5.0",
         "minTime": "20",
         "maxTime": "30",
-        "offer": "50%"
+        "offer": "UPTO Rs.120 OFF"
     },
     {
         "image": "swiggy-images/8.jpeg",
         "path": "cakes",
-        "title": "Pizza Flix",
-        "name": "Pizza Flix",
+        "title": "Starbucks",
+        "name": "Coffee, Deserts",
         "place": "Kharar",
-        "rating": "5",
+        "rating": "4.5",
         "minTime": "20",
         "maxTime": "30",
-        "offer": "50%"
+        "offer": ""
     },
     {
         "image": "swiggy-images/9.jpeg",

@@ -20,7 +20,7 @@ export default function Header() {
 
     return (
         <>
-          <div className='black-overlay w-full h-full fixed duration-500 ' onClick={hideSideMenu}
+          <div className="black-overlay w-full h-full fixed duration-500" onClick={hideSideMenu}
           style={{
             opacity : toggle ? 1 : 0, visibility : toggle ? 'visible' : 'hidden'
            }}
@@ -32,15 +32,15 @@ export default function Header() {
                 left : toggle ? '0%' : '-100%'
             }}
            ></div>
-          <header className='p-[15px] shadow-xl '>
+          <header className='p-[15px] shadow-xl'>
             <div className='max-w-[1200px] mx-auto  flex items-center'>
                 <div className='w-[100px]'>
                     <img src="images/logo.png" className='w-full' alt="" />
                 </div>
-                <div className=''>
-                   <span className='font-bold border-b-[3px] border-black hover:text-[#fc8019] cursor-pointer hover:border-[#fc8019]'>Sector-14</span> Hisar, Haryana, India <RxCaretDown onClick={showSideMenu} fontSize={25} className='font-bold inline text-[#fc8019] cursor-pointer'/>
+                <div className='flex gap-1 font-[500]'>
+                   <span className='font-bold border-b-[3px] border-black hover:text-[#fc8019] cursor-pointer hover:border-[#fc8019]'>Sector-65</span><h2></h2> Mohali, Punjab, India <RxCaretDown onClick={showSideMenu} fontSize={25} className='font-bold inline text-[#fc8019] cursor-pointer'/>
                 </div>
-                <nav className='flex list-none gap-10 ml-auto font-semibold text-[18px]'>
+                <nav className='hidden md:flex list-none gap-10 ml-auto font-semibold text-[18px]'>
                    <li className='flex hover:text-[#fc8019] items-center gap-2 cursor-pointer'>
                     <IoIosSearch/>
                     Search

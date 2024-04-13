@@ -43,7 +43,7 @@ export default function TopRest() {
                 <div className='cursor-pointer text-[25px] flex justify-center items-center w-[30px] h-[30px] bg-[#e2e2e7] rounded-full mx-2'><HiArrowSmRight onClick={nextSlide}/></div>
             </div>
           </div>
-        <div className='flex gap-7 overflow-hidden '>
+        <div className='toprestara flex gap-7 overflow-scroll overflow-hidden'>
             {
                 data.map(
                     (data, index) => {

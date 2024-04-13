@@ -22,6 +22,14 @@ footer {
   width: 18px;
 }
 
+.toprestara::-webkit-scrollbar {
+  display: none;
+}
+
+.category::-webkit-scrollbar {
+  display: none;
+}
+
 ::-webkit-scrollbar-thumb {
   background-color: #888;
   border-radius: 6px;

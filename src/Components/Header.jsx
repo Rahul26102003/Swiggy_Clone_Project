@@ -31,7 +31,11 @@ export default function Header() {
               style={{
                 left : toggle ? '0%' : '-100%'
             }}
-           ></div>
+           >
+            <div className='h-[30px] pt-5'>
+            <input className='h-[30px] text-[30px] p-2' type="text" placeholder='Search for area, street no..' />
+            </div>
+           </div>
           <header className='p-[15px] shadow-xl'>
             <div className='max-w-[1200px] mx-auto  flex items-center'>
                 <div className='w-[100px]'>

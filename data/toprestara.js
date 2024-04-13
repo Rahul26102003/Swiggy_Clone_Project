@@ -42,7 +42,7 @@
         "rating": "4.5",
         "minTime": "20",
         "maxTime": "30",
-        "offer": "20% OFF"
+        "offer": "50% OFF UPTO Rs.90"
     },
     {
         "image": "swiggy-images/5.jpeg",
@@ -53,7 +53,7 @@
         "rating": "5.0",
         "minTime": "15",
         "maxTime": "30",
-        "offer": "50% OFF"
+        "offer": "50% OFF UPTO Rs.90"
     },
     {
         "image": "swiggy-images/6.jpeg",
@@ -91,35 +91,35 @@
     {
         "image": "swiggy-images/9.jpeg",
         "path": "chinese",
-        "title": "Pizza Flix",
-        "name": "Pizza Flix",
+        "title": "Bikaner Sweets",
+        "name": "All kind of Sweets",
         "place": "Kharar",
-        "rating": "5",
+        "rating": "5.0",
         "minTime": "20",
         "maxTime": "30",
-        "offer": "50%"
+        "offer": "50% OFF UPTO Rs.90"
     },
     {
         "image": "swiggy-images/10.jpeg",
         "path": "chole-bature",
-        "title": "Pizza Flix",
-        "name": "Pizza Flix",
-        "place": "Kharar",
-        "rating": "5",
+        "title": "Mac. Donalds",
+        "name": "Chinese Foods",
+        "place": "Sector-22",
+        "rating": "4.5",
         "minTime": "20",
         "maxTime": "30",
-        "offer": "50%"
+        "offer": "50% OFF UPTO Rs.90"
     },
     {
         "image": "swiggy-images/11.jpeg",
-        "path": "dosa",
-        "title": "Pizza Flix",
-        "name": "Pizza Flix",
+        "path": "",
+        "title": "Dominic's Pizza",
+        "name": "Chinese Food",
         "place": "Kharar",
-        "rating": "5",
+        "rating": "4.2",
         "minTime": "20",
         "maxTime": "30",
-        "offer": "50%"
+        "offer": "50% OFF UPTO Rs.90"
     },
     {
         "image":"swiggy-images/12.jpeg",

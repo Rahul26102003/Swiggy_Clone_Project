@@ -3,9 +3,34 @@
 @tailwind utilities;
 
 .black-overlay {
-    background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .image-overlay {
-    background-color: linear-gradient(to bottom, rgba(255,255,255,0) 60%, rgba(0,0,0,0.1));
+  background-color: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 60%,
+    rgba(0, 0, 0, 0.1)
+  );
+}
+
+footer {
+  background-color: rgb(2, 6, 12);
+}
+
+::-webkit-scrollbar {
+  width: 18px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track:hover {
+  background-color: #ccc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
 }

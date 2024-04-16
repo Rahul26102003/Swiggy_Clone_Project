@@ -8,7 +8,7 @@ export default function Footer() {
         <>
         <div className="pt-[100px] ">
         <div className="text-[35px] font-extrabold h-[150px] pt-5 bg-gray-200 text-[02060CBF]">
-            <div className="ps-[370px] font-sans">
+            <div className="ps-[330px] font-sans">
                 <pre>
                     For better experience, download <br />
                     the Swiggy app now  

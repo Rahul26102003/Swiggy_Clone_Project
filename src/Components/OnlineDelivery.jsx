@@ -34,14 +34,14 @@ export default function OnlineDelivery() {
         }, []
     )
     return (
-        <div className='max-w-[1200px] mx-auto items-center px-2' ref={componentRef}>
+        <div className='max-w-[1500px] mx-auto items-center px-2' ref={componentRef}>
           <div className='flex items-center my-3 justify-between'>
             <div className='text-[25px] font-bold pt-5'>
                 Restaurants with online food delivery in Chandigarh
             </div>
           </div>
           <div className={isAtTop ? 'fixed top-0 z-[99999999] bg-white w-full left-0' : ''}>
-            <div className="max-w-[1200px] mx-auto flex my-4 gap-3 cursor-pointer">
+            <div className="max-w-[1500px] mx-auto flex my-4 gap-3 cursor-pointer">
             <div className="p-3 rounded-md shadow">Filter</div>
             <div className="p-3 rounded-md shadow">Sort By</div>
             <div className="p-3 rounded-md shadow">Fast Delivery</div>
@@ -54,7 +54,7 @@ export default function OnlineDelivery() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
             {
                 data.map(
                   (d, i) =>  {

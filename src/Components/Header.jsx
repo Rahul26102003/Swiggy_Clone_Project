@@ -37,8 +37,8 @@ export default function Header() {
             </div>
            </div>
           <header className='p-[15px] shadow-xl'>
-            <div className='max-w-[1200px] mx-auto  flex items-center'>
-                <div className='w-[100px]'>
+            <div className='max-w-[1500px] mx-auto flex items-center'>
+                <div className='ms-[-25px] w-[110px]'>
                     <img src="images/logo.png" className='w-full' alt="" />
                 </div>
                 <div className='flex gap-1 font-[500]'>

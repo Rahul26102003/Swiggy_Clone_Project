@@ -33,7 +33,7 @@ export default function TopRest() {
 
     return (
         <>
-        <div className='max-w-[1190px] mx-auto items-center px-2'>
+        <div className='max-w-[1500px] mx-auto items-center px-2'>
           <div className='flex items-center my-3 justify-between'>
             <div className='text-[25px] font-bold'>
                 Top restaurarant chains in Chandigarh
